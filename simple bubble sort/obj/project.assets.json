@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benit\\source\\repos\\simple bubble sort\\simple bubble sort\\simple bubble sort.csproj",
-      "projectName": "simple bubble sort",
-      "projectPath": "C:\\Users\\benit\\source\\repos\\simple bubble sort\\simple bubble sort\\simple bubble sort.csproj",
+      "projectUniqueName": "C:\\Users\\benit\\source\\repos\\simple bubble sort\\simple bubble sort\\AllKindOfSorts.csproj",
+      "projectName": "AllKindOfSorts",
+      "projectPath": "C:\\Users\\benit\\source\\repos\\simple bubble sort\\simple bubble sort\\AllKindOfSorts.csproj",
       "packagesPath": "C:\\Users\\benit\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\benit\\source\\repos\\simple bubble sort\\simple bubble sort\\obj\\",
       "projectStyle": "PackageReference",

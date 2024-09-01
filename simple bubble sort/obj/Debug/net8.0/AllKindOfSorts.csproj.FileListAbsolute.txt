@@ -1,0 +1,15 @@
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\bin\Debug\net8.0\AllKindOfSorts.exe
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\bin\Debug\net8.0\AllKindOfSorts.deps.json
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\bin\Debug\net8.0\AllKindOfSorts.runtimeconfig.json
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\bin\Debug\net8.0\AllKindOfSorts.dll
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\bin\Debug\net8.0\AllKindOfSorts.pdb
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.AssemblyInfoInputs.cache
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.AssemblyInfo.cs
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.csproj.CoreCompileInputs.cache
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.sourcelink.json
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.dll
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\refint\AllKindOfSorts.dll
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.pdb
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\AllKindOfSorts.genruntimeconfig.cache
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\ref\AllKindOfSorts.dll

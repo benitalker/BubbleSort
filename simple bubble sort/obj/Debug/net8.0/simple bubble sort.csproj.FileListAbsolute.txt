@@ -12,3 +12,4 @@ C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8
 C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\simple bubble sort.pdb
 C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\simple bubble sort.genruntimeconfig.cache
 C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\ref\simple bubble sort.dll
+C:\Users\benit\source\repos\simple bubble sort\simple bubble sort\obj\Debug\net8.0\simple bubble sort.sourcelink.json

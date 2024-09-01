@@ -1,48 +1,77 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
-namespace BubbleSort
+namespace SortingAlgorithms
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[] arr = { 10,5,8,3,9,1,2,7,4,6 };
+            var array = new int[] { 10, 5, 8, 3, 9, 1, 2, 7, 4, 6 };
 
-            var sortedArray = BubbleSort(arr);
+            // Perform Bubble Sort
+            var sortedBubble = Sorters.BubbleSort(array);
+            Console.WriteLine("Bubble Sorted: " + string.Join(" ", sortedBubble));
 
-            Console.WriteLine("Sorted:");
-            Console.WriteLine(string.Join(" ", sortedArray));
+            // Perform Selection Sort
+            var sortedSelection = Sorters.SelectionSort(array);
+            Console.WriteLine("Selection Sorted: " + string.Join(" ", sortedSelection));
+
+            Console.ReadKey();
         }
+    }
 
-        static int[] BubbleSort(int[] array)
+    public static class Sorters
+    {
+        public static int[] BubbleSort(int[] sequence)
         {
-            int[] arr = array.ToArray();
-            bool swapped;
+            var arr = sequence;
+            int n = arr.Length;
 
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < n - 1; i++)
             {
-                swapped = false;
 
-                for (int j = 0; j < arr.Length - 1 - i; j++)
+                for (int j = 0; j < n - 1 - i; j++)
                 {
-                    if (arr[j] > arr[j + 1])
+                    if (arr[j].CompareTo(arr[j + 1]) > 0)
                     {
                         Swap(ref arr[j], ref arr[j + 1]);
-                        swapped = true;
                     }
                 }
-
-                if (!swapped)
-                    break;
             }
 
             return arr;
         }
 
-        static void Swap(ref int a, ref int b)
+        public static int[] SelectionSort(int[] sequence)
         {
-            int temp = a;
+            var arr = sequence;
+            int n = arr.Length;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                int minIndex = i;
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (arr[j].CompareTo(arr[minIndex]) < 0)
+                    {
+                        minIndex = j;
+                    }
+                }
+
+                if (minIndex != i)
+                {
+                    Swap(ref arr[i], ref arr[minIndex]);
+                }
+            }
+
+            return arr;
+        }
+
+        private static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
             a = b;
             b = temp;
         }
